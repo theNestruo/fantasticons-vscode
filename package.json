@@ -1,0 +1,38 @@
+{
+	"publisher": "theNestruo",
+	"name": "fantasticons-icons-theme",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.88.0"
+	},
+	"displayName": "FantastIcons",
+	"description": "A fastastic icon theme for VS Code",
+	"categories": [
+		"Themes"
+	],
+	"license": "MIT",
+	"pricing": "Free",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/theNestruo/fantasticons-vscode.git"
+	},
+	"author": {
+		"name": "Caio Landgraf",
+		"email": "eu.caiolandgraf@gmail.com"
+	},
+	"maintainers": [
+		{
+			"name": "Néstor Sancho",
+			"email": "theNestruo@gmail.com"
+		}
+	],
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "fantasticons",
+				"label": "FantastIcons",
+				"path": "./icon_themes/fantasticons-icon-theme.json"
+			}
+		]
+	}
+}
