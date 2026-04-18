@@ -1,3 +1,4 @@
+.github
 .gitignore
 package-lock.json
 *.vsix
