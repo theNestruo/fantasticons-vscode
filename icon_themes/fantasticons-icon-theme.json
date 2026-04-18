@@ -2190,6 +2190,12 @@
 		"folder_vscode_open": {
 			"iconPath": "../icons/folder_vscode_open.svg"
 		},
+		"folder_vscode_left": {
+			"iconPath": "../icons/folder_vscode_left.svg"
+		},
+		"folder_vscode_left_open": {
+			"iconPath": "../icons/folder_vscode_left_open.svg"
+		},
 		"folder_vuepress": {
 			"iconPath": "../icons/folder_vuepress.svg"
 		},
@@ -2213,13 +2219,13 @@
 		},
 		"folder_wordpress_open": {
 			"iconPath": "../icons/folder_wordpress_open.svg"
-		},
+		}
 	},
 	"file": "default",
 	"folder": "folder",
 	"folderExpanded": "folder_open",
-	"rootFolder": "folder",
-	"rootFolderExpanded": "folder_open",
+	"rootFolder": "folder_vscode_left",
+	"rootFolderExpanded": "folder_vscode_left_open",
 	"fileExtensions": {
 		"pfx": "_f_certificate",
 		"wma": "_f_audio",
@@ -4851,6 +4857,6 @@
 		"widgets": "folder_component_open",
 		"wp-content": "folder_wordpress_open",
 		"www": "folder_public_open",
-		"wwwroot": "folder_public_open.svg"
+		"wwwroot": "folder_public_open"
 	}
 }
